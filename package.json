@@ -1,0 +1,27 @@
+{
+  "name": "googcms",
+  "description": "Google Drive CMS",
+  "keywords": ["cms", "google docs"],
+  "author": "Ben Hartley",
+  "version": "0.0.1",
+  "licenses":  [{
+    "type": "MIT",
+    "url": "https://raw.github.com/benhartley/googcms/master/LICENSE"
+  }],
+  "directories": {
+    "lib": "./lib/googcms"
+  },
+  "main": "./lib/googcms",
+  "bin": {
+  	"googcms": "./bin/googcms"
+  },
+  "bugs": "http://github.com/benhartley/googcms/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benhartley/googcms.git"
+  },
+  "dependencies": {
+	"js-yaml" : "*",
+	"csv" : "*"
+  }
+}
