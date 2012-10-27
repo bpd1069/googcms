@@ -8,7 +8,7 @@ npm install googcms
 ## Minimum-viable CMS?
 Let a Google spreadsheet take care of auth, versioning, storage, and pretty much everything else. All you need to worry about is having `googlecl` installed on your server (see note below), and adding a `.googcms.yml` file to your project with the following fields:
 
-``` yaml .googcms.yml
+```
 document : DocName # Exactly as appears on Google Drive
 column_key : 0 # Column on spreadsheet for string identifiers (numbered from 0)
 column_value : 1 # Column with actual string in
