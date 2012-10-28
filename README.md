@@ -23,4 +23,4 @@ Once everything is installed, you can then run `googcms` in your project directo
 curl -O https://raw.github.com/benhartley/googcms/master/googcms.sh; chmod +x googcms.sh; ./googcms.sh
 ```
 
-There's a `sudo` prompt about halfway through the script. It also attempts to connect to Google after installation. If you haven't previously authorised `googlecl` to access your Google account, it will launch a browser window where you can do this.
+There's a `sudo` prompt about halfway through the script. It also attempts to connect to Google after installation. If you haven't previously authorised `googlecl` to access your Google account, it will launch a browser window where you can do this. `googlecl` requires python 2.5+ and gdata. See [installation instructions](http://code.google.com/p/googlecl/wiki/Install) if you  hit any issues.
