@@ -17,7 +17,7 @@ column_value : 1 # Column with actual string in
 Once everything is installed, you can then run `googcms` in your project directory, and you'll get a `strings.json` file with your copy in key:value pairs, ready to be loaded into your app. We have this included in our deployment script, so apps always get deployed with the latest copy strings.
 
 ## Installing googlecl
->**Do not** install via `pip` or `port` - the packages are out of date and broken.
+>**Do not** install via `pip` or `port` - the packages are out-of-date and broken.
 
 `googlecl` is a great little [tool](http://code.google.com/p/googlecl/) for accessing Google services from the command-line. However, the project seemed mothballed until recently. The packaged version dates from 2011 and is broken... but, the latest version from the svn trunk has fixed a bunch of bugs, including (most importantly for us) the ability to download spreadsheets from Google Drive (née Google Docs). If you have `svn` installed on your server, you can run the following to get the latest version of `googlecl` installed:
 
